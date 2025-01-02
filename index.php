@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="login.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="first-container">
+            <h1>Welcome To Our Web Site !</h1>
+        </div>
+        <div class="second-container">
+            <h1>Sign In</h1>
+            <form action = "loginForm.php" method="post" >
+                <label for="username">username</label>
+                <input type="text" name="username" id="username" placeholder="username" required>
+                <label for="password">password</label>
+                <input type="password" name="password" id="password" placeholder="password" required>
+                <button type="submit">Log in </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Protest+Revolution&family=Sniglet:wght@400;800&display=swap');
+*{
+    padding : 0rem ; 
+    margin : 0rem ; 
+    box-sizing: border-box;
+}
+
+h1 {
+font-family: "Protest Revolution";
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    width : 100%;
+}
+
+.container>div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 120px;
+    height: 140px;
+    padding: 0.5rem;
+}
+
+
+p {
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 5px ;
+    box-shadow: 1px 1px 8px gray;
+    max-width: 500px; /* Exemple */
+}
+
+body {
+    font-family: "Permanent Marker";
+}
+
+.container button,.Confirmer {
+    padding: 0.25rem;
+    border-radius : 5px ; 
+    margin-top: 0.5rem;
+    font-family: "Permanent Marker";
+    box-shadow: 1px 1px 5px gray;
+}
+
+.container button:hover , .Confirmer:hover {
+    background-color: red;
+    color : white ; 
+    border-color: transparent;
+}
+input {
+    padding: 0.25rem;
+}
+
+input::placeholder {
+    text-align: center;
+    font-family: "Permanent Marker";
+}
+
+.panier {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 2rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+    z-index: 1;
+    text-align: center;
+    filter: none; 
+    pointer-events: auto;
+}
+
+.blur {
+    filter: blur(5px);
+    pointer-events: none;
+}
+.panier p {
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.supprimer {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border-color: red;
+    padding: 0.25rem;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.flex {
+ border-bottom : 1px solid whitesmoke ;
+ display: flex;
+ justify-content: space-between;
+ padding: 1rem;
+ background-color: whitesmoke;
+ margin-bottom: 2rem;
+ box-shadow: 1px 1px 8px rgb(131, 128, 128);
+}
+
+.hidden {
+    display: none;
+}
+
+#logout img {
+    width: 120px;
+    height: 120px;
+}
+
+.slider {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hidden2{
+    display: none;
+    padding : 1rem ;
+    
+}
+
+.list2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding : 2rem ;
+}
+
+.list2 img {
+    width : 150px;
+    height: 100%;
+}
+
+.buttons{
+    position: absolute;
+    top: 45%;
+    left:5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width : 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: black;
+    border: none ; 
+    font-family: monospace;
+    font-weight: bold;
+    
+}
+

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Protest+Revolution&family=Sniglet:wght@400;800&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-family: "Permanent Marker";
+}
+
+h1,
+h2 {
+    font-family: "Protest Revolution";
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-container h1  {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    background-image: radial-gradient(circle 817.6px at 10% 20%, rgba(178, 34, 34, 1) 0%, rgba(255, 87, 51, 1) 41.9%, rgba(255, 165, 0, 1) 100.2%);
+    padding : 0.5rem 4rem 0.5rem 4rem ; 
+    border-radius: 10px;
+    color : white ;
+    box-shadow: 0px 0px 0.5rem black;
+}
+
+.second-container {
+    border: 2px solid #691e20;
+    border-radius: 5px;
+    background-image: radial-gradient(circle 817.6px at 10% 20%, rgba(178, 34, 34, 1) 0%, rgba(255, 87, 51, 1) 41.9%, rgba(255, 165, 0, 1) 100.2%);
+    box-shadow: 0px 0px 18px black;
+    padding : 2rem;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    
+}
+
+.second-container h1 {
+    color: white;
+    margin: 1rem;
+}
+
+label {
+    display: none;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0.875rem;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    border: 2px solid white;
+    box-shadow: -2px 2px 5px black;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #D31027 ;
+    background-image: linear-gradient(to right, #D31027 25%, #EA384D 51%, #D31027 100%);
+    margin: 10px;
+    padding: 15px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: -2px 2px 5px black;
+    border-radius: 10px;
+    font-family: "Protest Revolution";
+    border: none;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+}
+
+input::placeholder {
+    padding-left: 5px;
+    font-size: 1rem;
+    font-family: "Permanent Marker";
+}
