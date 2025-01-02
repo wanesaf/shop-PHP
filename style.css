@@ -64,10 +64,7 @@ input {
     padding: 0.25rem;
 }
 
-input::placeholder {
-    text-align: center;
-    font-family: "Permanent Marker";
-}
+
 
 .panier {
     position: fixed;
@@ -122,9 +119,7 @@ input::placeholder {
     text-align: center;
 }
 
-button:hover {
-    cursor: pointer;
-}
+
 
 .flex {
  border-bottom : 1px solid whitesmoke ;
@@ -187,8 +182,5 @@ button:hover {
     background-color: #fff5;
     color: black;
     border: none ; 
-    font-family: monospace;
-    font-weight: bold;
-    
 }
 
