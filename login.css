@@ -88,12 +88,5 @@ button {
 button:hover {
     cursor: pointer;
     background-position: right center;
-    /* change the direction of the change here */
     color: #fff;
-}
-
-input::placeholder {
-    padding-left: 5px;
-    font-size: 1rem;
-    font-family: "Permanent Marker";
 }
